@@ -7,7 +7,7 @@ on:
   push:
     branches: [ main, legacy-boot2 ]
   pull_request:
-    branches: [ main, legacy-boot2 ]
+    branches: [ main, legacy-boot2, devin/1792667830-boot35-java17 ]
 
 jobs:
   build:
